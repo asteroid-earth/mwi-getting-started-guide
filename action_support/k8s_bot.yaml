@@ -15,4 +15,4 @@ outputs:
       region: us-west-2
   destination:
     type: directory
-    path: ./k8s-out
+    path: ./k8s_out
