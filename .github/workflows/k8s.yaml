@@ -18,6 +18,7 @@ jobs:
       - name: Fetch Teleport binaries
         uses: teleport-actions/setup@v1
         with:
+          proxy: mwidemo.cloud.gravitational.io:443
           version: auto
       - name: Export kubectl config
         run: tbot start --oneshot -c ./action_support/k8s_bot.yaml
