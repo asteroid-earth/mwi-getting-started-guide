@@ -4,8 +4,7 @@ metadata:
   name: github-bot
 spec:
   node_labels:
-    env: myenvlabel
+    env: mwi-demo
   allow:
     logins:
       - ubuntu
-      - root

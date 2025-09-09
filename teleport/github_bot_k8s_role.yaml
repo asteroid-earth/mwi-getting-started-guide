@@ -6,7 +6,8 @@ metadata:
 spec:
   allow:
     kubernetes_labels:
-      env: myenvlabel
+      teleport.dev/cloud: AWS
+      region: us-west-2
     kubernetes_groups:
       - system:masters
     kubernetes_resources:
