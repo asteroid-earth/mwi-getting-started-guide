@@ -11,4 +11,4 @@ outputs:
 - type: identity
   destination:
     type: directory
-    path: ./ssh-out
+    path: ./ssh_out
