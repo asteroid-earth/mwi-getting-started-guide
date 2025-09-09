@@ -10,7 +10,9 @@ storage:
 outputs:
 - type: kubernetes/v2
   selectors:
-    - env: myenvlabel
+    labels:
+      teleport.dev/cloud: AWS
+      region: us-west-2
   destination:
     type: directory
     path: ./k8s-out
