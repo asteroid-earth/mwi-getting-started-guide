@@ -24,5 +24,4 @@ jobs:
         run: tbot start --oneshot -c ./action_support/k8s_bot.yaml
       - name: Run kubectl get pods
         run: |
-          ls ./k8s_out
-          kubectl --kubeconfig=./k8s_out/config get pods -n default
+          kubectl --kubeconfig=./k8s_out/kubeconfig.yaml get pods -n default
